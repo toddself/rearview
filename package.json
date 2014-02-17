@@ -1,0 +1,38 @@
+{
+  "name": "rearview",
+  "description": "A backbone view implementation that supports server side rendering",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/toddself/rearview.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node post-install",
+    "pre-commit": "npm run lint && npm test",
+    "lint": "jshint",
+    "test": "tap test/*js",
+    "prepublish": "docme README.md -- --configure .jsdocrc.json"
+  },
+  "dependencies": {
+    "cheerio": "~0.13.1",
+    "backbone": "~1.1.1"
+  },
+  "devDependencies": {
+    "tap": "~0.4.4",
+    "jshint": "~2.3.0",
+    "docme": "~0.1.5"
+  },
+  "author": {
+    "name": "Todd Kennedy",
+    "email": "<todd@selfassembled.org>",
+    "url": "http://tck.io"
+  },
+  "keywords": [],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/toddself/rearview/blog/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.8"
+  }
+}
