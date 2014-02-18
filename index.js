@@ -417,7 +417,7 @@ var baseViewOpts = exports.baseViewOpts = {
    * @private
    * @memberOf BaseView
    * @method _preRender
-   * @fires pre-rensder
+   * @fires pre-render
    * @return {object} undefined
    */
   _preRender: function () {
