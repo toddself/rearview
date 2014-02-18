@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/toddself/rearview.png)](http://travis-ci.org/toddself/rearview)
 # Rearview
 
 A [Backbone](http://backbonejs.com) view implementation that allows for server-side and client-side rendering. Allows for use with Backbone models/collections or POJOs either attached to the view or passed in at `render` time.
