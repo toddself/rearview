@@ -15,7 +15,8 @@
   "dependencies": {
     "jquery": "~2.1.0",
     "jsdom": "~0.10.1",
-    "backbone": "~1.1.0"
+    "backbone": "~1.1.0",
+    "deepest-merge": "~0.1.1"
   },
   "devDependencies": {
     "tap": "~0.4.4",
