@@ -1,4 +1,5 @@
 [![build status](https://secure.travis-ci.org/toddself/rearview.png)](http://travis-ci.org/toddself/rearview)
+
 # Rearview
 
 A [Backbone](http://backbonejs.com) view implementation that allows for server-side and client-side rendering. Allows for use with Backbone models/collections or POJOs either attached to the view or passed in at `render` time.
@@ -101,3 +102,6 @@ These methods exist but are implemented as no-ops so you can provide custom meth
 * `postClientRender`: works similar to the event. Allows for something to be done synchronously in the render pipeline.
 * `postRender`: works similar to the event. Allows for something to be done synchronously in the render pipeline.
 * `dereferenceChild`: Run on a parent view when a child view closes itself.
+
+## License
+Rearview is made available under the MIT License and is Copyright (c) 2014 Todd Kennedy
