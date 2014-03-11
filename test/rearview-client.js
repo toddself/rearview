@@ -1,4 +1,4 @@
-/* global suite, test */
+/* global test */
 
 'use strict';
 
@@ -10,8 +10,6 @@ var TestView = Rearview.extend({
     return 'this is a test';
   }
 });
-
-suite('rendering');
 
 test('should render a template', function(){
   var testView = new TestView();

@@ -16,7 +16,7 @@
     "test": "npm run test-server && npm run test-client-local"
   },
   "browser": {
-    "jquery": "./client-jquery.js"
+    "expose-jquery": "./client-jquery"
   },
   "dependencies": {
     "jquery": "~2.1.0",
@@ -31,7 +31,9 @@
     "docme": "~0.1.5",
     "mocha": "^1.17.1",
     "zuul": "^1.5.4",
-    "phantomjs": "^1.9.7-1"
+    "phantomjs": "^1.9.7-1",
+    "browserify-shim": "^3.3.1",
+    "browserify": "^3.32.1"
   },
   "author": {
     "name": "Todd Kennedy",
