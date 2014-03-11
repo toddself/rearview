@@ -1,0 +1,10 @@
+ui: mocha-tdd
+browsers:
+  - name: chrome
+    version: latest
+  - name: safari
+    version: latest
+  - name: firefox
+    version: latest
+  - name: ie
+    version: 8..latest

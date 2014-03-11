@@ -10,18 +10,28 @@
     "postinstall": "node post-install",
     "pre-commit": "npm run lint && npm test",
     "lint": "jshint",
-    "test": "tap test/*js"
+    "test-server": "tap test/*server.js",
+    "test-client-local": "zuul --phantom -- test/*client.js",
+    "test-integration": "zuul -- test/*client.js",
+    "test": "npm run test-server && npm run test-client-local"
+  },
+  "browser": {
+    "jquery": "./client-jquery.js"
   },
   "dependencies": {
     "jquery": "~2.1.0",
     "jsdom": "~0.10.1",
     "backbone": "~1.1.0",
-    "deepest-merge": "~0.1.1"
+    "deepest-merge": "~0.1.1",
+    "zuul": "git://github.com/defunctzombie/zuul#master"
   },
   "devDependencies": {
     "tap": "~0.4.4",
     "jshint": "~2.3.0",
-    "docme": "~0.1.5"
+    "docme": "~0.1.5",
+    "mocha": "^1.17.1",
+    "zuul": "^1.5.4",
+    "phantomjs": "^1.9.7-1"
   },
   "author": {
     "name": "Todd Kennedy",
